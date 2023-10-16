@@ -121,7 +121,7 @@ const experiences = [
             "Packed With Jodit Text Editor",
             "Used Tailwind css for style"
         ],
-        link:"https://gregarious-lokum-eddae8.netlify.app"
+        link:"https://statuesque-sunflower-70f308.netlify.app/"
     },
     {
         title: "Video Calling App",

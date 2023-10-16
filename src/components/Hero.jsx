@@ -12,8 +12,10 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
         <div>
-
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Pratyush </span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>{"Hi, I'm ".split("").map(((item)=>
+          {
+            return <motion.span initial={{x:-10,y:parseInt(Math.random() * 20) % 20}} whileInView={{x:0,y:0}}>{item}</motion.span>
+          }))}<span className='text-[#915eff]'>Pratyush </span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
             I Develop Full Stack Website
           </p>
