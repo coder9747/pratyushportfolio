@@ -124,7 +124,7 @@ const experiences = [
         link:"https://statuesque-sunflower-70f308.netlify.app/"
     },
     {
-        title: "Video Calling App",
+        title: "Peer-Peer (Video Calling) App",
         company_name: "Shopify",
         icon: shopify,
         iconBg: "#383E56",
@@ -133,7 +133,7 @@ const experiences = [
             "This is Simple Video Calling App",
             "Were User Can Video Call any ones"
         ],
-        link:"https://coder9747.github.io/TypingSite/"
+        link:"https://coder9747.github.io/VideoCallingApp/",
     },
     {
         title: "E-commerce Website",
