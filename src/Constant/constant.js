@@ -121,7 +121,7 @@ const experiences = [
             "Packed With Jodit Text Editor",
             "Used Tailwind css for style"
         ],
-        link:"https://statuesque-sunflower-70f308.netlify.app/"
+        link:"https://news-website-firebase-react.vercel.app/"
     },
     {
         title: "Peer-Peer (Video Calling) App",
