@@ -9,6 +9,8 @@ import tailwind from "../assets/tech/tailwind.png";
 import nodejs from "../assets/tech/nodejs.png";
 import mongodb from "../assets/tech/mongodb.png";
 import git from "../assets/tech/git.png";
+import socket from "../assets/tech/socket.png";
+import webrtc from "../assets/tech/webrtc.png";
 import firebase from "../assets/tech/firebase.png";
 import { motion } from "framer-motion"
 
@@ -57,6 +59,14 @@ const technologies = [
     icon: git,
   },
   {
+    name: "Socket.Io",
+    icon: socket,
+  },
+  {
+    name: "WebRtc",
+    icon: webrtc,
+  },
+  {
     name: "firebase",
     icon: firebase
   }
@@ -70,6 +80,7 @@ const Tech = () => {
       <motion.h1 initial={{ y: (Math.random() * 100) % 100 }} whileInView={{ y: 0 }} viewport={{ once: false, amount: 0.1 }} className='text-center font-bold font-poppins  my-2 text-5xl'>My <span className='text-violet-400'>Skill's</span> </motion.h1>
       <div className='flex flex-row flex-wrap justify-center gap-10'>
         {technologies.map((item) => {
+          console.log(item);
           return <motion.div
             initial={{ x: (Math.random()*50) % 50, y: (Math.random()*50) % 50, opacity: 0 }}
             transition={{ delay: 0.2, type: "spring" }}

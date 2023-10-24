@@ -23,7 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    sokcet,
+    webrtc,
 } from "../assets";
+
 
 export const navLinks = [
     {
@@ -86,6 +89,14 @@ const technologies = [
     },
     {
         name: "MongoDB",
+        icon: mongodb,
+    },
+    {
+        name: "Socket",
+        icon: mongodb,
+    },
+    {
+        name: "webRTC",
         icon: mongodb,
     },
     {
